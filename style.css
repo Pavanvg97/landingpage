@@ -1,0 +1,108 @@
+/* ===== GLOBAL RESET & DEFAULTS ===== */
+* {
+  margin: 0; /* Remove default margin from all elements */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include padding & border in total width/height */
+  font-family: 'Segoe UI', sans-serif; /* Set a clean sans-serif font for all elements */
+}
+
+/* ===== BODY STYLING ===== */
+body {
+  line-height: 1.6; /* Improve text readability */
+  background-color: #f9f9f9; /* Light background color for the page */
+}
+
+/* ===== NAVIGATION BAR ===== */
+.navbar {
+  display: flex; /* Arrange logo and links horizontally */
+  justify-content: space-between; /* Space out logo and navigation links */
+  background-color: #333; /* Dark background */
+  padding: 1rem 2rem; /* Spacing inside navbar */
+  align-items: center; /* Vertically center content */
+}
+
+.navbar .logo {
+  color: #fff; /* White text color */
+  font-size: 24px; /* Slightly large font for branding */
+  font-weight: bold; /* Make it bold for emphasis */
+}
+
+.nav-links {
+  list-style: none; /* Remove bullet points from list */
+  display: flex; /* Arrange links horizontally */
+  gap: 1.5rem; /* Space between links */
+}
+
+.nav-links li a {
+  color: #fff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color change on hover */
+}
+
+.nav-links li a:hover {
+  color: #00adb5; /* Teal color on hover */
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  display: flex; /* Center content horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 90vh; /* Take most of the viewport height */
+  background: linear-gradient(to right, #00adb5, #393e46); /* Gradient background */
+  color: #fff; /* White text */
+  text-align: center; /* Center align text */
+  padding: 0 1rem; /* Small padding inside */
+}
+
+.hero-content h1 {
+  font-size: 3rem; /* Large heading */
+  margin-bottom: 1rem; /* Space below heading */
+}
+
+.hero-content p {
+  font-size: 1.2rem; /* Slightly bigger paragraph text */
+  margin-bottom: 2rem; /* Space below paragraph */
+}
+
+.hero-content button {
+  padding: 0.8rem 1.5rem; /* Inner spacing for button */
+  font-size: 1rem; /* Normal text size */
+  border: none; /* Remove border */
+  background-color: #fff; /* White background */
+  color: #00adb5; /* Teal text */
+  cursor: pointer; /* Show pointer on hover */
+  border-radius: 5px; /* Slightly rounded corners */
+  transition: background 0.3s; /* Smooth background change */
+}
+
+.hero-content button:hover {
+  background-color: #eeeeee; /* Light grey background on hover */
+}
+
+/* ===== INFO SECTION ===== */
+.info {
+  padding: 3rem 2rem; /* Space around content */
+  text-align: center; /* Center align text */
+}
+
+.info h2 {
+  font-size: 2rem; /* Large heading */
+  margin-bottom: 1rem; /* Space below heading */
+  color: #222831; /* Dark grey text */
+}
+
+.info p {
+  font-size: 1.1rem; /* Slightly larger paragraph text */
+  color: #555; /* Medium grey text */
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center; /* Center align footer text */
+  padding: 1.5rem; /* Space inside footer */
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+}
+
+  
